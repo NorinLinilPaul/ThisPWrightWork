@@ -1,0 +1,19 @@
+[{ 
+    "url": "https://www.saucedemo.com/",
+    "userName": "standard_user",
+    "password": "secret_sauce",
+    "fname": "Angela",
+    "lname": "Danny",
+    "zip": "12345",
+    "productName": "Sauce Labs Backpack"
+},
+{ 
+    "url": "https://www.saucedemo.com/",
+    "userName": "standard_user",
+    "password": "secret_sauce",
+    "fname": "Rita",
+    "lname": "Mathew",
+    "zip": "121345",
+    "productName": "Sauce Labs Fleece Jacket"
+}
+]

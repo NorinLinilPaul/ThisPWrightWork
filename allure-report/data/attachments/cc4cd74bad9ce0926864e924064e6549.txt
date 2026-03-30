@@ -1,0 +1,8 @@
+First Item is: Sauce Labs Backpack
+Number of inventory items: 6
+Added Sauce Labs Backpack to cart
+Cart page title is correct: true
+Sauce Labs Backpack is visible in the cart
+Checkout functionality tested
+Msg in website Thank you for your order!
+Thank you for your order! is displayed on the page

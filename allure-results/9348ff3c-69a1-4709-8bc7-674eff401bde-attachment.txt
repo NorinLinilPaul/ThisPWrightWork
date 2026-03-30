@@ -1,0 +1,5 @@
+Login successful
+Count6
+Checkout functionality tested
+Msg in website Thank you for your order!
+Thank you for your order! is displayed on the page
