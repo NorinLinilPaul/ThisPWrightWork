@@ -15,7 +15,8 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './e2e',
   retries: 3, // Retry failed tests up to 3 times
-  workers: 1, // Run tests sequentially to avoid interference in canvas automation
+  workers: 2, // Run tests in parallel with 2 workers, which can help speed up test execution while still providing some isolation between tests. 
+  // Adjust the number of workers based on your system's capabilities and the nature of your tests to find the optimal balance between speed and reliability.
   timeout: 40*1000, //40s
   expect:{
     timeout: 50*1000 //50s ;only for assertions, not for the entire test. It specifies the maximum time to wait for an assertion to pass before considering it a failure. This is useful for handling cases where the expected condition may take some time to be met, such as waiting for an element to appear on the page or for a certain state to be reached. By setting a timeout for assertions, you can ensure that your tests fail gracefully if the expected conditions are not met within a reasonable timeframe, rather than hanging indefinitely.
